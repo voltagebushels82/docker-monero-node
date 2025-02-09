@@ -5,3 +5,7 @@ IPv6Exit 0
 Log notice stdout
 PublishServerDescriptor 0
 SOCKSPort 0.0.0.0:9050
+
+HiddenServiceDir /var/lib/tor/monerod
+HiddenServicePort 18081 127.0.0.1:18081    # interface for wallet ("RPC")
+HiddenServicePort 18084 127.0.0.1:18084    # interface for P2P network
